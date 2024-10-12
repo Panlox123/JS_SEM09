@@ -10,7 +10,7 @@ button {
 }
 
 button:hover {
-    background-color: crimson;
+    background-color: rgb(209, 64, 24);
 }
 
 p {
