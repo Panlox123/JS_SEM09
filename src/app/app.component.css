@@ -1,0 +1,19 @@
+input {
+    margin: 10px;
+    padding: 5px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}

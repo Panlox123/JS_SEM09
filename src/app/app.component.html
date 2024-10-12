@@ -227,6 +227,26 @@
       </svg>
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
+      <div style="text-align: center;">
+        <h2>Calculadora Básica</h2>
+        
+        <label for="numero1">Número 1: </label>
+        <input type="number" [(ngModel)]="numero1">
+        <br><br>
+
+        <label for="numero2">Número 2: </label>
+        <input type="number" [(ngModel)]="numero2">
+        <br><br>
+
+        <button (click)="operar('suma')">Sumar</button>
+        <button (click)="operar('resta')">Restar</button>
+        <button (click)="operar('multiplicacion')">Multiplicar</button>
+        <button (click)="operar('division')">Dividir</button>
+        <button (click)="operar('potencia')">Potencia</button>
+        <br><br>
+
+        <p>Resultado: {{resultado}}</p>
+      </div>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
